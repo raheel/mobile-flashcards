@@ -1,0 +1,47 @@
+{
+  "name": "mobile-flashcards",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.6.0",
+    "jest-expo": "^22.0.0",
+    "react-test-renderer": "16.0.0-beta.5"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^22.0.0",
+
+
+        "apisauce": "^0.14.0",
+    "format-json": "^1.0.3",
+    "lodash": "^4.17.2",
+    "prop-types": "15.6.0",
+    "querystringify": "0.0.4",
+    "ramda": "^0.24.1",
+     "react": "16.0.0-beta.5",
+    "react-native": "^0.49.5",
+    "react-native-animatable": "^1.2.4",
+    "react-native-config": "^0.6.0",
+    "react-native-device-info": "0.11.0",
+    "react-native-drawer": "^2.3.0",
+    "react-native-i18n": "1.0.0",
+    "react-native-vector-icons": "4.3.0",
+    "react-navigation": "react-community/react-navigation#master",
+    "react-redux": "^5.0.2",
+    "redux-persist": "^4.1.0",
+    "redux-saga": "^0.15.6",
+        "redux-thunk": "^2.2.0",
+    "reduxsauce": "0.4.1",
+    "seamless-immutable": "^7.0.1"
+  }
+}
